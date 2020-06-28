@@ -10,7 +10,8 @@ public class HomePage extends PageObject {
     public WebElement findFlightsButton;
 
     public HomePage(WebDriver driver) {
-        super(driver);
+        //super(driver);
+        this.driver = driver;
         open();
     }
 
